@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, MapPin, Calendar, Wine } from 'lucide-react';
+import { Clock, MapPin, Calendar } from 'lucide-react';
 
 interface WeddingDetailsProps {
   date: string;
@@ -16,7 +16,6 @@ const WeddingDetails: React.FC<WeddingDetailsProps> = ({
   venue,
   address,
   mapUrl,
-  dressCode,
 }) => {
   return (
     <section className="py-16 px-6 bg-black bg-opacity-95 text-white">
@@ -58,10 +57,8 @@ const WeddingDetails: React.FC<WeddingDetailsProps> = ({
           </div>
           
           <div className="flex items-start">
-            <Wine className="text-gold mr-4 flex-shrink-0" size={24} />
             <div>
-              <h3 className="text-lg text-gold mb-1">Código de vestimenta</h3>
-              <p className="text-white">{dressCode}</p>
+              <img src="/images/codigodevestimenta.jpg" alt="" />
             </div>
           </div>
 
