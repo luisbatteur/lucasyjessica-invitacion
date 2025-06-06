@@ -25,7 +25,7 @@ const weddingData = {
   dressCode: "Preferiblemente tonos oscuros. Ellos y ellas. No usaran ni rosa, ni blanco, ni rojo, ni dorado",
   rsvpDeadline: "May 1, 2025",
   audioSrc: "https://www.bensound.com/bensound-music/bensound-memories.mp3", // Replace with actual music URL
-  targetDate: "2025-08-02T15:00:00",
+  targetDate: "2025-08-02T13:00:00",
   story: "A celebrar este día tan especial para nuestras vidas. Nos encantaría contar con vuestra presencia y poder estar rodeados de nuestros seres queridos",
   proposalStory: "No me ruegues que te deje y que me aparte de ti; porque a dondequiera que tú vayas, yo iré; y dondequiera que tú vivas, yo viviré. Tu pueblo será mi pueblo y tu Dios será mi Dios..",
   galleryImages: [
