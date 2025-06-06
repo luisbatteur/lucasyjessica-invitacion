@@ -24,10 +24,10 @@ const weddingData = {
   mapUrl: "https://maps.app.goo.gl/1yn7v5n7hWsvKhwf9",
   dressCode: "Preferiblemente tonos oscuros. Ellos y ellas. No usaran ni rosa, ni blanco, ni rojo, ni dorado",
   rsvpDeadline: "May 1, 2025",
-  audioSrc: "https://www.bensound.com/bensound-music/bensound-memories.mp3", // Replace with actual music URL
+  audioSrc: "/music/jvke-golden-hour.mp3", // Replace with actual music URL
   targetDate: "2025-08-02T13:00:00",
   story: "A celebrar este día tan especial para nuestras vidas. Nos encantaría contar con vuestra presencia y poder estar rodeados de nuestros seres queridos",
-  proposalStory: "No me ruegues que te deje y que me aparte de ti; porque a dondequiera que tú vayas, yo iré; y dondequiera que tú vivas, yo viviré. Tu pueblo será mi pueblo y tu Dios será mi Dios..",
+  proposalStory: "No me ruegues que te deje y que me aparte de ti; porque a donde quiera que tú vayas, yo iré; y dondequiera que tú vivas, yo viviré. Tu pueblo será mi pueblo y tu Dios será mi Dios..",
   galleryImages: [
     { src: "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg", alt: "Couple photo 1" },
     { src: "https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg", alt: "Couple photo 2" },
@@ -51,8 +51,6 @@ function App() {
         audioSrc={weddingData.audioSrc}
       />
       
-      <Countdown targetDate={weddingData.targetDate} />
-      
       <OurStory 
         story={weddingData.story}
         proposalStory={weddingData.proposalStory}
@@ -72,6 +70,8 @@ function App() {
       
       <RSVP />
       
+      <Countdown targetDate={weddingData.targetDate} />
+
       <Footer 
         brideFirstName={weddingData.bride.firstName}
         groomFirstName={weddingData.groom.firstName}

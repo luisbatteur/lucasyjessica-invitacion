@@ -10,7 +10,7 @@ interface GalleryProps {
 const Gallery: React.FC<GalleryProps> = ({ images }) => {
   return (
     <section className="py-16 px-6 bg-black">
-      <h2 className="text-2xl md:text-3xl font-serif text-gold text-center mb-8">Nuestros Momentos</h2>
+      <h2 className="text-2xl md:text-3xl text-gold text-center mb-8">Nuestros Momentos</h2>
       
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {images.map((image, index) => (

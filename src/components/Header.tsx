@@ -13,17 +13,14 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({
   brideFirstName,
-  brideLastName,
   groomFirstName,
-  groomLastName,
-  date,
   audioSrc,
 }) => {
   const { isPlaying, togglePlay } = useAudio(audioSrc);
 
   return (
     <header className="relative min-h-[100dvh] flex flex-col items-center justify-center text-center p-6 bg-black bg-opacity-90 text-white overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full bg-[url('https://images.pexels.com/photos/1616113/pexels-photo-1616113.jpeg')] bg-cover bg-center opacity-30 z-0"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-[url('https://images.pexels.com/photos/32073431/pexels-photo-32073431/free-photo-of-elegante-mesa-de-boda-con-centro-de-mesa-floral.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-center opacity-30 z-0"></div>
       
       <div className="absolute top-4 right-4 z-20">
         <button 
@@ -41,21 +38,15 @@ const Header: React.FC<HeaderProps> = ({
       </div>
 
       <div className="relative z-10 animate-fadeIn">
-        <p className="text-gold text-sm md:text-base mb-2 font-light tracking-widest uppercase">¡¡Nos Casamos!!</p>
-        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl mb-2 tracking-wide">
+        <h1 className="font-serif text-7xl md:text-5xl lg:text-6xl mb-2 tracking-wide">
           <span className="block mb-2">{groomFirstName}</span>
           <span className="inline-block w-8 h-[1px] bg-gold mx-2 align-middle"></span>
           <span>&</span>
           <span className="inline-block w-8 h-[1px] bg-gold mx-2 align-middle"></span>
           <span className="block mt-2">{brideFirstName}</span>
         </h1>
-        <p className="text-gold text-sm md:text-base mt-4 tracking-widest uppercase">{date}</p>
         
-        <div className="mt-8 border-t border-b border-gold py-4 px-6">
-          <p className="font-serif text-xl md:text-2xl text-white">
-            {groomLastName} & {brideLastName}
-          </p>
-        </div>
+  
 
       </div>
         <div className="absolute bottom-6 left-auto transform -translate-x-1/2 animate-bounce">

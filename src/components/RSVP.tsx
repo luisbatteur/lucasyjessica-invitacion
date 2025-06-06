@@ -23,7 +23,7 @@ const RSVP: React.FC = () => {
   return (
     <section id="rsvp" className="py-16 px-6 bg-black">
       <div className="max-w-md mx-auto">
-        <h2 className="text-2xl md:text-3xl font-serif text-gold text-center mb-2 text-balance">Gracias por ser parte de nuestra historia de amor.</h2>
+        <h2 className="text-2xl md:text-3xl text-gold text-center mb-2 text-balance">Gracias por ser parte de nuestra historia de amor.</h2>
         <p className="text-gray-400 text-center mb-8 text-balance border border-dashed border-gray-400 rounded-xl p-5">Agradecemos que nos confirmes tu asistencia antes del 20 de Julio.</p>
         
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -51,32 +51,9 @@ const RSVP: React.FC = () => {
                 className="w-full bg-transparent border border-gold/50 focus:border-gold rounded p-3 text-white"
               />
             </div>
-            
-            <div>
-              <label htmlFor="phone" className="block text-gold mb-1">Teléfono</label>
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                className="w-full bg-transparent border border-gold/50 focus:border-gold rounded p-3 text-white"
-              />
-            </div>
-
-              <div>
-                <label htmlFor="guests" className="block text-gold mb-1">Numero de Compañantes</label>
-                <input
-                  type="number"
-                  id="guests"
-                  name="guests"
-                  min="0"
-                  max="5"
-                  className="w-full bg-transparent border border-gold/50 focus:border-gold rounded p-3 text-white"
-                />
-              </div>
           
-            
             <div>
-              <label htmlFor="message" className="block text-gold mb-1">Algún comentario o sugerencia</label>
+              <label htmlFor="message" className="block text-gold mb-1">Comentarios</label>
               <textarea
                 id="message"
                 name="message"

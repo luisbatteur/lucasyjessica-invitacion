@@ -13,8 +13,8 @@ const OurStory: React.FC<OurStoryProps> = ({ story, proposalStory, image }) => {
         {/* <h2 className="text-2xl md:text-3xl font-serif text-gold text-center mb-8">¡¡Nos Casamos!!</h2> */}
         
         <div className="bg-gold/5 border border-gold/20 p-6 rounded-lg mb-8">
-          <h3 className="text-xl font-serif text-gold mb-4 text-center">Acompáñanos</h3>
-          <p className="text-white leading-relaxed">{story}"</p>
+          <h3 className="text-2xl text-gold mb-4 text-center">Acompáñanos</h3>
+          <p className="text-white text-center leading-relaxed rouge-script-regular text-2xl">{story}"</p>
         </div>
         
         <div className="mb-8 overflow-hidden rounded-lg">
@@ -25,9 +25,9 @@ const OurStory: React.FC<OurStoryProps> = ({ story, proposalStory, image }) => {
           />
         </div>
 
-        <div className="bg-gold/5 border border-gold/20 p-6 rounded-lg">
-          {/* <h3 className="text-xl font-serif text-gold mb-4 text-center">The Proposal</h3> */}
-          <p className="text-white leading-relaxed">"{proposalStory}"</p>
+        <div className="bg-gold/5 border border-gold/20 p-6 rounded-lg text-3xl">
+          {/* <h3 className="text-xl text-gold mb-4 text-center">The Proposal</h3> */}
+          <p className="text-white text-center leading-relaxed rouge-script-regular">"{proposalStory}"</p>
         </div>
       </div>
     </section>

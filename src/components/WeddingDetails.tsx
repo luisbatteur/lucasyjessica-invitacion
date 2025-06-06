@@ -21,13 +21,13 @@ const WeddingDetails: React.FC<WeddingDetailsProps> = ({
   return (
     <section className="py-16 px-6 bg-black bg-opacity-95 text-white">
       <div className="max-w-md mx-auto">
-        <h2 className="text-2xl md:text-3xl font-serif text-gold text-center mb-12">Detalles de la Ceremonia</h2>
+        <h2 className="text-2xl md:text-3xl text-gold text-center mb-12">Ceremonia</h2>
         
         <div className="space-y-8">
           <div className="flex items-start">
             <Calendar className="text-gold mr-4 flex-shrink-0" size={24} />
             <div>
-              <h3 className="text-lg font-serif text-gold mb-1">Fecha</h3>
+              <h3 className="text-lg text-gold mb-1">Fecha</h3>
               <p className="text-white">{date}</p>
             </div>
           </div>
@@ -35,7 +35,7 @@ const WeddingDetails: React.FC<WeddingDetailsProps> = ({
           <div className="flex items-start">
             <Clock className="text-gold mr-4 flex-shrink-0" size={24} />
             <div>
-              <h3 className="text-lg font-serif text-gold mb-1">Hora</h3>
+              <h3 className="text-lg text-gold mb-1">Hora</h3>
               <p className="text-white">{time}</p>
             </div>
           </div>
@@ -43,7 +43,7 @@ const WeddingDetails: React.FC<WeddingDetailsProps> = ({
           <div className="flex items-start">
             <MapPin className="text-gold mr-4 flex-shrink-0" size={24} />
             <div>
-              <h3 className="text-lg font-serif text-gold mb-1">Lugar</h3>
+              <h3 className="text-lg text-gold mb-1">Lugar</h3>
               <p className="text-white mb-1">{venue}</p>
               <p className="text-white text-sm mb-2">{address}</p>
               <a 
@@ -60,13 +60,13 @@ const WeddingDetails: React.FC<WeddingDetailsProps> = ({
           <div className="flex items-start">
             <Wine className="text-gold mr-4 flex-shrink-0" size={24} />
             <div>
-              <h3 className="text-lg font-serif text-gold mb-1">Código de vestimenta</h3>
+              <h3 className="text-lg text-gold mb-1">Código de vestimenta</h3>
               <p className="text-white">{dressCode}</p>
             </div>
           </div>
 
           <div className="flex items-center w-full border border-dashed border-gray-400 rounded-xl p-2 bg-gold/10">
-              <h3 className="text-lg text-center font-serif text-gold mb-1 w-full">Luvia de Sobres</h3>
+              <h3 className="text-lg text-center text-gold mb-1 w-full">Luvia de Sobres</h3>
           </div>
         </div>
       </div>
