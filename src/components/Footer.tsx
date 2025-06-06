@@ -18,7 +18,7 @@ const Footer: React.FC<FooterProps> = ({ brideFirstName, groomFirstName, hashtag
         </div>
       </div>
       
-      <p className="font-serif text-xl text-gold mb-1">{brideFirstName} & {groomFirstName}</p>
+      <p className="font-serif text-xl text-gold mb-1">{groomFirstName} & {brideFirstName}</p>
       <p className="text-xs text-gold/60">
         Un Amor unido por la Voluntad de Dios.
       </p>

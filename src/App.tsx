@@ -36,7 +36,7 @@ const weddingData = {
     { src: "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg", alt: "Couple photo 5" },
     { src: "https://images.pexels.com/photos/1589216/pexels-photo-1589216.jpeg", alt: "Couple photo 6" },
   ],
-  hashtag: "BodaDeJessica&Lucas"
+  hashtag: "BodaDeLucas&Jessica"
 };
 
 function App() {
