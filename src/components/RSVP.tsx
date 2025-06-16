@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+/* import React, { useState } from 'react'; */
 
 const RSVP: React.FC = () => {
-  const [status, setStatus] = useState('');
+/*   const [status, setStatus] = useState('');
   const handleSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
@@ -18,60 +18,34 @@ const RSVP: React.FC = () => {
     } else {
       setStatus('Hubo un error al enviar tu confirmación. Por favor, inténtalo de nuevo.');
     }
-  };
+  }; */
 
   return (
     <section id="rsvp" className="py-16 px-6 bg-black">
       <div className="max-w-md mx-auto">
-        <h2 className="text-2xl md:text-3xl text-gold text-center mb-2 text-balance">Gracias por ser parte de nuestra historia de amor.</h2>
-        <p className="text-gray-400 text-center mb-8 text-balance border border-dashed border-gray-400 rounded-xl p-5">Agradecemos que nos confirmes tu asistencia antes del 20 de Julio.</p>
+        <div className='flex justify-center mb-8'>
+          <img src="images/Icono-rama.png" className='mix-blend-screen' />
+        </div>
+        <p className="text-xl text-white text-center text-balance p-5">Nuestro mejor regalo eres tú, pero si quieres tener un detalle</p>
+        <div className="flex items-center w-full p-2">
+          <h3 className="text-5xl text-center text-white w-full rouge-script-regular mb-9">Luvia de Sobres o</h3>
+        </div>
+
+        <div className='bg-gold/5 border border-gold/20 p-6 rounded-lg mb-8'>
+          <p className="text-gold text-center text-balance text-xl">ES00 0000 00000 0000 000</p>
+          <div className='flex justify-center mb-8'>
+            <img src="images/bizum-logo.png" className='w-44 mt-12' />
+          </div>
+          <p className="text-white text-center text-balance text-5xl rouge-script-regular">Lucas</p>
+          <p className="text-gold text-center text-balance text-xl">+34 653 18 93 05</p>
+          <p className="text-white text-center text-balance text-5xl mt-5 rouge-script-regular">Jessica</p>
+          <p className="text-gold text-center text-balance text-xl">+34 651 53 23 90</p>
+
+        </div>
+        <h2 className="text-xl md:text-3xl text-slate-200 text-center mb-8 text-balance">Gracias por celebrar con nosotros este día tan especial.<br/> Agradecemos que nos confirmes tu asistencia antes del 15 de Julio.</h2>
+
+        <a href="https://api.whatsapp.com/send?phone=34651532390&text=Hola%20Lucas,%20y%20Jessica%20me%20gustaría%20confirmar%20mi%20asistencia%20a%20la%20boda.%20Gracias!" target="_blank" rel="noopener noreferrer" className="block text-center bg-gold text-black font-bold py-3 px-6 rounded-lg mb-8 hover:bg-gold-light transition-colors">Confirma tu asistencia</a>
         
-          <form onSubmit={handleSubmit} className="space-y-6">
-
-            <input type='hidden' name='access_key' value='a793fa18-6b48-4678-8acf-7207fa252ea4'></input>
-
-            <div>
-              <label htmlFor="name" className="block text-gold mb-1">Nombre Completo</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                className="w-full bg-transparent border border-gold/50 focus:border-gold rounded p-3 text-white"
-              />
-            </div>
-            
-            <div>
-              <label htmlFor="email" className="block text-gold mb-1">Correo</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                className="w-full bg-transparent border border-gold/50 focus:border-gold rounded p-3 text-white"
-              />
-            </div>
-          
-            <div>
-              <label htmlFor="message" className="block text-gold mb-1">Comentarios</label>
-              <textarea
-                id="message"
-                name="message"
-                rows={3}
-                className="w-full bg-transparent border border-gold/50 focus:border-gold rounded p-3 text-white resize-none"
-              ></textarea>
-            </div>
-            
-            <button 
-              type="submit" 
-              className="w-full bg-gold hover:bg-gold-dark text-black font-medium py-3 px-4 rounded transition-colors duration-300 disabled:opacity-70"
-            >
-              Envíar Confirmación
-            </button>
-            {status && (
-              <p className="text-center text-white mt-4">{status}</p>
-            )}
-          </form>
       </div>
     </section>
   );

@@ -3,7 +3,6 @@ import Header from './components/Header';
 import Countdown from './components/Countdown';
 import WeddingDetails from './components/WeddingDetails';
 import RSVP from './components/RSVP';
-import Gallery from './components/Gallery';
 import OurStory from './components/OurStory';
 import Footer from './components/Footer';
 
@@ -17,7 +16,7 @@ const weddingData = {
     firstName: "Lucas",
     lastName: "Manrique"
   },
-  date: "Agosto 2, 2025",
+  date: "Sábado 9 de Agosto 2025",
   time: "13:00 H",
   venue: "TDV Madrid",
   address: "Calle de Pedro Villar, 2",
@@ -25,8 +24,8 @@ const weddingData = {
   dressCode: "Preferiblemente tonos oscuros. Ellos y ellas. No usaran ni rosa, ni blanco, ni rojo, ni dorado",
   rsvpDeadline: "May 1, 2025",
   audioSrc: "/music/jvke-golden-hour.mp3", // Replace with actual music URL
-  targetDate: "2025-08-02T13:00:00",
-  story: "A celebrar este día tan especial para nuestras vidas. Nos encantaría contar con vuestra presencia y poder estar rodeados de nuestros seres queridos",
+  targetDate: "2025-08-09T13:00:00",
+  story: "Acompáñanos a celebrar este día tan especial para nuestras vidas. Nos encantaría contar con vuestra presencia y poder estar rodeados de nuestros seres queridos",
   proposalStory: "No me ruegues que te deje y que me aparte de ti; porque a donde quiera que tú vayas, yo iré; y dondequiera que tú vivas, yo viviré. Tu pueblo será mi pueblo y tu Dios será mi Dios..",
   galleryImages: [
     { src: "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg", alt: "Couple photo 1" },
@@ -66,7 +65,7 @@ function App() {
         dressCode={weddingData.dressCode}
       />
       
-      <Gallery images={weddingData.galleryImages} />
+      {/* <Gallery images={weddingData.galleryImages} /> */}
       
       <RSVP />
       

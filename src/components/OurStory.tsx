@@ -6,15 +6,15 @@ interface OurStoryProps {
   image: string;
 }
 
-const OurStory: React.FC<OurStoryProps> = ({ story, proposalStory, image }) => {
+const OurStory: React.FC<OurStoryProps> = ({ image }) => {
   return (
     <section className="py-16 px-6 bg-gradient-to-b from-black to-black/95">
       <div className="max-w-lg mx-auto">
-        {/* <h2 className="text-2xl md:text-3xl font-serif text-gold text-center mb-8">¡¡Nos Casamos!!</h2> */}
         
-        <div className="bg-gold/5 border border-gold/20 p-6 rounded-lg mb-8">
-          <h3 className="text-2xl text-gold mb-4 text-center">Acompáñanos</h3>
-          <p className="text-white text-center leading-relaxed rouge-script-regular text-2xl">{story}"</p>
+        <div className="bg-gold/5 border border-gold/20 p-6 rounded-lg text-4xl mb-6">
+          {/* <h3 className="text-xl text-gold mb-4 text-center">The Proposal</h3> */}
+          <p className="text-white text-center rouge-script-regular  leading-none">"No me ruegues que te deje<br/> y que me aparte de ti; porque <br/> a donde quiera que tú vayas, yo iré;<br/> y dondequiera que tú vivas,<br/> yo viviré. Tu pueblo será mi pueblo <br/>y tu Dios será mi Dios.."</p>
+          <p className="text-slate-400 text-center rouge-script-regular mt-6 leading-none">Rut 1:16</p>
         </div>
         
         <div className="mb-8 overflow-hidden rounded-lg">
@@ -25,10 +25,6 @@ const OurStory: React.FC<OurStoryProps> = ({ story, proposalStory, image }) => {
           />
         </div>
 
-        <div className="bg-gold/5 border border-gold/20 p-6 rounded-lg text-3xl">
-          {/* <h3 className="text-xl text-gold mb-4 text-center">The Proposal</h3> */}
-          <p className="text-white text-center leading-relaxed rouge-script-regular">"{proposalStory}"</p>
-        </div>
       </div>
     </section>
   );
