@@ -1,4 +1,5 @@
 /* import React, { useState } from 'react'; */
+import { Heart } from 'lucide-react';
 
 const RSVP: React.FC = () => {
 /*   const [status, setStatus] = useState('');
@@ -23,8 +24,12 @@ const RSVP: React.FC = () => {
   return (
     <section id="rsvp" className="py-16 px-6 bg-black">
       <div className="max-w-md mx-auto">
-        <div className='flex justify-center mb-8'>
-          <img src="images/Icono-rama.png" className='mix-blend-screen' />
+        <div className="mb-6 w-full flex justify-center">
+          <div className="inline-flex items-center">
+            <span className="inline-block w-8 h-[1px] bg-gold"></span>
+            <Heart className="mx-2 text-gold" size={18} />
+            <span className="inline-block w-8 h-[1px] bg-gold"></span>
+          </div>
         </div>
         <p className="text-xl text-white text-center text-balance p-5">Nuestro mejor regalo eres tú, pero si quieres tener un detalle</p>
         <div className="flex items-center w-full p-2">
