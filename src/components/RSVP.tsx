@@ -32,14 +32,56 @@ const RSVP: React.FC = () => {
         </div>
 
         <div className='bg-gold/5 border border-gold/20 p-6 rounded-lg mb-8'>
-          <p className="text-gold text-center text-balance text-xl">ES00 0000 00000 0000 000</p>
+            <div className="flex flex-col items-center justify-center gap-2 mb-4">
+            <p className="text-gold text-center text-balance text-xl select-all" id="iban">
+              ES48 0182 5322 2102 0487 6326
+            </p>
+            <button
+              type="button"
+              className="bg-gold/20 hover:bg-gold/40 text-gold px-3 py-1 rounded transition-colors"
+              onClick={() => {
+              navigator.clipboard.writeText('ES48 0182 5322 2102 0487 6326');
+              }}
+              aria-label="Copiar IBAN"
+            >
+              Copiar
+            </button>
+            </div>
           <div className='flex justify-center mb-8'>
             <img src="images/bizum-logo.png" className='w-44 mt-12' />
           </div>
           <p className="text-white text-center text-balance text-5xl rouge-script-regular">Lucas</p>
-          <p className="text-gold text-center text-balance text-xl">+34 653 18 93 05</p>
+            <div className="flex flex-col items-center justify-center gap-2 mb-4">
+              <p className="text-gold text-center text-balance text-xl select-all" id="iban">
+                +34 653 18 93 05
+              </p>
+              <button
+                type="button"
+                className="bg-gold/20 hover:bg-gold/40 text-gold px-3 py-1 rounded transition-colors"
+                onClick={() => {
+                navigator.clipboard.writeText('+34 653 18 93 05');
+                }}
+                aria-label="Copiar BIZUM"
+              >
+                Copiar
+              </button>
+            </div>
           <p className="text-white text-center text-balance text-5xl mt-5 rouge-script-regular">Jessica</p>
-          <p className="text-gold text-center text-balance text-xl">+34 651 53 23 90</p>
+            <div className="flex flex-col items-center justify-center gap-2 mb-4">
+              <p className="text-gold text-center text-balance text-xl select-all" id="iban">
+                +34 651 53 23 90
+              </p>
+              <button
+                type="button"
+                className="bg-gold/20 hover:bg-gold/40 text-gold px-3 py-1 rounded transition-colors"
+                onClick={() => {
+                navigator.clipboard.writeText('+34 651 53 23 90');
+                }}
+                aria-label="Copiar BIZUM"
+              >
+                Copiar
+              </button>
+            </div>
 
         </div>
         <h2 className="text-xl md:text-3xl text-slate-200 text-center mb-8 text-balance">Gracias por celebrar con nosotros este día tan especial.<br/> Agradecemos que nos confirmes tu asistencia antes del 15 de Julio.</h2>

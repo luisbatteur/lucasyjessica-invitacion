@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = ({
 
   return (
     <header className="relative min-h-[100dvh] flex flex-col items-center justify-center text-center p-6 bg-black bg-opacity-90 text-white overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full bg-[url('https://images.pexels.com/photos/32073431/pexels-photo-32073431/free-photo-of-elegante-mesa-de-boda-con-centro-de-mesa-floral.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-center opacity-30 z-0"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-[url('images/lucasyjessica.webp')] bg-cover bg-center opacity-30 z-0"></div>
       
       <div className="absolute top-4 right-4 z-20">
         <button 

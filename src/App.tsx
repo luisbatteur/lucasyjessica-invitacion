@@ -31,9 +31,7 @@ const weddingData = {
     { src: "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg", alt: "Couple photo 1" },
     { src: "https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg", alt: "Couple photo 2" },
     { src: "https://images.pexels.com/photos/1034843/pexels-photo-1034843.jpeg", alt: "Couple photo 3" },
-    { src: "https://images.pexels.com/photos/3153198/pexels-photo-3153198.jpeg", alt: "Couple photo 4" },
-    { src: "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg", alt: "Couple photo 5" },
-    { src: "https://images.pexels.com/photos/1589216/pexels-photo-1589216.jpeg", alt: "Couple photo 6" },
+    { src: "https://images.pexels.com/photos/3153198/pexels-photo-3153198.jpeg", alt: "Couple photo 4" }
   ],
   hashtag: "BodaDeLucas&Jessica"
 };
@@ -53,7 +51,7 @@ function App() {
       <OurStory 
         story={weddingData.story}
         proposalStory={weddingData.proposalStory}
-        image="https://images.pexels.com/photos/1731824/pexels-photo-1731824.jpeg"
+        image="images/lucasyjessica2.webp"
       />
       
       <WeddingDetails 
