@@ -26,7 +26,7 @@ const OurStory: React.FC<OurStoryProps> = ({ image }) => {
         </div>
         <div className="text-xl font-serif">
           <p className="text-white text-center text-balance">
-            Acompáñanos a celebrar este día tan especial para nuestras vidas.
+            ¡Nos casamos y nos hace mucha ilusión que estés con nosotros!
           </p>
         </div>
 
