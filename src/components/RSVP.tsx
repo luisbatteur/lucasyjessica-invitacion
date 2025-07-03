@@ -31,7 +31,7 @@ const RSVP: React.FC = () => {
             <span className="inline-block w-8 h-[1px] bg-gold"></span>
           </div>
         </div>
-        <p className="text-xl text-white text-center text-balance p-5">Nuestro mejor regalo eres tú, pero si quieres tener un detalle</p>
+        <p className="text-xl text-white text-center text-balance p-5">Nuestra mayor alegría es compartir con ustedes en este día. Si deseas hacernos un regalo, estaremos muy agradecidos.</p>
         <div className="flex items-center w-full p-2">
           <h3 className="text-5xl text-center text-white w-full rouge-script-regular mb-9">Luvia de Sobres o</h3>
         </div>

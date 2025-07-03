@@ -65,7 +65,7 @@ const WeddingDetails: React.FC<WeddingDetailsProps> = ({
           
           <div className="flex items-start justify-center">
             <div>
-              <img src="/images/codigodevestimenta.jpg" alt="" />
+              <img src="/images/codigodevestimenta.webp" alt="" />
             </div>
           </div>
         </div>
