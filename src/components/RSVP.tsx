@@ -31,7 +31,8 @@ const RSVP: React.FC = () => {
             <span className="inline-block w-8 h-[1px] bg-gold"></span>
           </div>
         </div>
-        <p className="text-xl text-white text-center text-balance p-5">Nuestra mayor alegría es compartir con ustedes en este día. Si deseas hacernos un regalo, estaremos muy agradecidos.</p>
+        <p className="text-xl text-white text-center text-balance px-4">Nuestra mayor alegría es compartir con ustedes en este día.</p>
+        <p className="text-xl text-white text-center text-balance py-3 pb-8">Si deseas hacernos un regalo, estaremos muy agradecidos.</p>
         <div className="flex items-center w-full p-2">
           <h3 className="text-5xl text-center text-white w-full rouge-script-regular mb-9">Luvia de Sobres o</h3>
         </div>
@@ -89,7 +90,8 @@ const RSVP: React.FC = () => {
             </div>
 
         </div>
-        <h2 className="text-xl md:text-3xl text-slate-200 text-center mb-8 text-balance">Queremos celebrar en vuestra compañía este día tan especial. Agradecemos nos confirmes tu asistencia antes del 25 de Julio</h2>
+        <h2 className="text-xl md:text-3xl text-slate-200 text-center mb-1 text-balance">Queremos celebrar en vuestra compañía este día tan especial. Agradecemos nos confirmes tu asistencia antes del</h2>
+        <h2 className="text-3xl md:text-3xl text-amber-100 text-center mb-8 font-bold">25 de Julio</h2>
 
         <a href="https://api.whatsapp.com/send?phone=34651532390&text=Hola%20Lucas,%20y%20Jessica%20me%20gustaría%20confirmar%20mi%20asistencia%20a%20la%20boda.%20Gracias!" target="_blank" rel="noopener noreferrer" className="block text-center bg-gold text-black font-bold py-3 px-6 rounded-lg mb-8 hover:bg-gold-light transition-colors">Confirma tu asistencia</a>
         

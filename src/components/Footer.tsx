@@ -4,10 +4,9 @@ import { Heart } from 'lucide-react';
 interface FooterProps {
   brideFirstName: string;
   groomFirstName: string;
-  hashtag?: string;
 }
 
-const Footer: React.FC<FooterProps> = ({ brideFirstName, groomFirstName, hashtag }) => {
+const Footer: React.FC<FooterProps> = ({ brideFirstName, groomFirstName }) => {
   return (
     <footer className="py-12 px-6 bg-black text-center text-white">
       <div className="mb-6">
@@ -22,13 +21,6 @@ const Footer: React.FC<FooterProps> = ({ brideFirstName, groomFirstName, hashtag
       <p className="text-xs text-gold/60">
         Un Amor unido por la Voluntad de Dios.
       </p>
-      
-      {hashtag && (
-        <p className="text-sm text-gold/80 mt-6">
-          Comparte tus fotos usando el hashtag<br />
-          <span className="font-medium">#{hashtag}</span>
-        </p>
-      )}
       
     </footer>
   );
