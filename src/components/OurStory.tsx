@@ -17,7 +17,7 @@ const OurStory: React.FC<OurStoryProps> = ({ image }) => {
           <p className="text-slate-400 text-center rouge-script-regular mt-6 leading-none">Rut 1:16</p>
         </div>
         
-        <div className="mb-10 overflow-hidden rounded-lg">
+        <div className="mb-10 overflow-hidden rounded-lg opacity-70">
           <img 
             src={image} 
             alt="Couple's photo" 

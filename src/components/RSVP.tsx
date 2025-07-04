@@ -34,7 +34,7 @@ const RSVP: React.FC = () => {
         <p className="text-xl text-white text-center text-balance px-4">Nuestra mayor alegría es compartir con ustedes en este día.</p>
         <p className="text-xl text-white text-center text-balance py-3 pb-8">Si deseas hacernos un regalo, estaremos muy agradecidos.</p>
         <div className="flex items-center w-full p-2">
-          <h3 className="text-5xl text-center text-white w-full rouge-script-regular mb-9">Luvia de Sobres o</h3>
+          <h3 className="text-5xl text-center text-white w-full rouge-script-regular mb-9">Lluvia de Sobres o</h3>
         </div>
 
         <div className='bg-gold/5 border border-gold/20 p-6 rounded-lg mb-8'>

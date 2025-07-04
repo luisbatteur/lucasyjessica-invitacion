@@ -37,9 +37,9 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <section className="bg-black py-10 px-6 text-center relative h-[500px] flex flex-col items-center justify-end">
+    <section className="bg-black py-10 px-6 text-center relative h-[600px] flex flex-col items-center justify-end">
 
-      <div className="absolute top-0 left-0 w-full h-full bg-[url('../images/lucasyjessica4.webp')] bg-cover bg-center opacity-30 z-0"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-[url('../images/lucasyjessica3.webp')] bg-cover bg-center opacity-30 z-0"></div>
 
       <h2 className="text-2xl md:text-3xl text-gold mb-8 z-10">Nos vemos en</h2>
       
